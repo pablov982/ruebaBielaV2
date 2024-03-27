@@ -25,11 +25,11 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: ng build --prod --base-href=/ruedaBielaEcommerce/
+        run: ng build --prod --base-href=/ruedaBielaV2/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.6
         with:
           ACCESS_TOKEN: ${{ secrets.SECRET_GITHUB_ECOMMERCE }}
           BRANCH: gh-pages
-          FOLDER: dist/my-angular-app
+          FOLDER: dist/rueda-biela-v2
