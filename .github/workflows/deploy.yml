@@ -25,7 +25,7 @@ jobs:
         run: npm install
 
       - name: Build Angular app
-        run: ng build --prod --base-href=/ruedaBielaV2/
+        run: ng build --prod --base-href=/ruebaBielaV2/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.6
