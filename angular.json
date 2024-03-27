@@ -23,6 +23,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
+            "baseHref": "ruebaBielaV2/ruebaBielaV2",
             "assets": [
               "src/favicon.ico",
               "src/assets"
